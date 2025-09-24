@@ -20,13 +20,18 @@ body {
 
 ul li {
     padding: 5px;
-    transition: all 0.2 ease;
+    transition: all 0.2s ease;
 }
 
 .linky {
     display: flex;
     gap: 10px;
     margin-top: 20px;
+}
+
+
+.linky img:hover {
+    transform: scale(1.1);
 }
 
 .h1 {
