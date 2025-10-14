@@ -38,6 +38,14 @@ ul li {
     display: inline-block;
 }
 
+
+#navbar i {
+  display: none;
+}
+#navbar span {
+  display: inline;
+}
+
 #navbar {
     display: flex;
     justify-content: space-between;
@@ -80,6 +88,21 @@ section {
     padding: 10px;
     margin: 0 4px;
     transition: 0.3s;
+}
+
+
+@media (max-width: 768px) {
+  #navbar i {
+    display: inline;
+  }
+  #navbar span {
+    display: none;
+  }
+}
+
+#navbar ul li a i {
+    margin-right: 6px;
+    font-size: 18px;
 }
 
 #navbar ul li a:hover {
