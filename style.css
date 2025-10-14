@@ -1,3 +1,50 @@
+
+#normal,
+#tablet,
+#smartphone,
+#widescreen,
+#landscape {
+    display: none;
+}
+
+@media (min-width: 1200px) {
+    #widescreen {
+        display: block;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #normal {
+        display: block;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #tablet {
+        display: block;
+    }
+}
+
+@media (max-width: 767px) {
+    #smartphone {
+        display: block;
+    }
+}
+
+@media (orientation: landscape) {
+    #landscape {
+        display: block;
+    }
+}
+
+#navbar a.desktop { display: inline; color: white; text-decoration: none; }
+#navbar a.mobile { display: none; font-size: 24px; }
+
+@media (max-width: 768px) {
+  #navbar a.desktop { display: none; }
+  #navbar a.mobile { display: inline-block; }
+}
+
 body {
     background-color: azure;
     font-family: Arial, sans-serif;
