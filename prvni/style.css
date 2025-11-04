@@ -212,3 +212,8 @@ section {
 html {
   scroll-behavior: smooth;
 }
+
+section {
+  margin: -20px;
+  padding: 80px 20px;
+}
