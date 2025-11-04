@@ -81,3 +81,8 @@ nav a:hover {
 html {
   scroll-behavior: smooth;
 }
+
+.brave-logo {
+  width: 150px;
+  height: auto;
+}
